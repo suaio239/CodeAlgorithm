@@ -13,13 +13,15 @@ string solution(int num) {
     string answer = "";
 
     // 2로 나눠지면 짝수 아니면 홀수
-    if (num % 2 == 0){
-        answer = "Even";
-    }else {
-        answer = "Odd";
-    }
+    // if (num % 2 == 0){
+    //     answer = "Even";
+    // }else {
+    //     answer = "Odd";
+    // }
+    //
+    // return answer;
 
-    return answer;
+    return num & 1 ? "Odd" : "Even";
 }
 
 int main() {
