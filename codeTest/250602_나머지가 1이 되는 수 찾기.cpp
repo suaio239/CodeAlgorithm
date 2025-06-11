@@ -21,7 +21,7 @@ int solution(int n) {
 
 int main() {
   // 테스트용 입력
-  int n1 = 10;
+  int n1 = 10;250602_나머지가 1이 되는 수 찾기.cpp
   int n2 = 12;
 
   // 함수 실행 결과 출력
